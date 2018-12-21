@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+   font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+
+    background-image: url(./img/cloud-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/**Heading styles**/
+#heading {
+
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#sub-heading {
+
+    font-size: 1rem;
+    line-height: 25px;
+}
+#heading,
+#sub-heading {
+
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+/** Search field styles **/
+.search-wrapper {
+
+    margin-top: 30px;
+}
+
+#city-input {
+
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#city-input,
+#submit
+{
+
+    display: block;
+    margin: 0 auto;
+    
+}
+
+#submit{
+
+    margin-top:50px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background-color: rgba(120, 28, 224, 0.308);
+    border-color: rgba(120, 28, 224, 0.308);
+    color: #fff;
+}
+
+#submit:active{
+
+    background-color: rgba(120, 28, 224, 0.55);
+    border-color: rgba(120, 28, 224, 0.55);
+}
+
+/** Weather data loaded from JSON styles **/
+#weather-main {
+
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+   
+}
+
+#icon{
+
+    margin: 0 auto;
+    display: block;
+    width: 75px;
+    height: auto;
+}
+
